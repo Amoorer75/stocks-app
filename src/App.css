@@ -2,10 +2,44 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title{
+  background-color:rgb(46, 46, 46);
+  Padding-left:10px;
+  Padding-top:3px;
+  padding-bottom:3px;
+  margin-top:10px;
+  text-align: left;
+  color: white;
 }
+.stock-info{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 1px solid red;
+  margin: 10px;
+  padding:10px;
+  color: white;
+}
+.stocks{
+  width: 40%;
+  margin-left:20px;
+  background-color:black;
+  padding-bottom:2px
+}
+.name{
+  text-align: left;
+}
+.up-down{
+  
+  padding:1px;
+  
+  border-radius: 15px;
+}
+.up-down p{
+  margin-left:10px;
+  margin-right:10px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
